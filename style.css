@@ -35,7 +35,7 @@ a:hover{
 
 .items{
   padding-right: 50px;
-  padding-top: 90px;
+  padding-top: 50px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -52,7 +52,7 @@ a:hover{
 .container{
   background-color: #1e385d;
   border-top: 10px #fff;
-  padding: 250px;
+  padding: 200px;
   display: flex;
   font-family: 'Quicksand', sans-serif;
 }
@@ -131,11 +131,11 @@ h1{
 }
 
 .side_image{
-  width: 53%;
-  height: 49.5em;
+  width: 43%;
+  height: 43.3em;
   position: absolute;
-  top: 210px;
-  left: 850px;
+  top: 152.5px;
+  left: 1073px;
   overflow: hidden;
   transform: translate(-50px,-20px) skewX(-10deg);
 }
