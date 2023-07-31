@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo{
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+}
+
+.head{
+font-weight: 700;
+}
+
+
+a{
+  text-decoration: none;
+  color:#cf2f17;
+}
+
+a:hover{
+  color: #1e385d;
+}
+
+.items{
+  padding-right: 50px;
+  padding-top: 90px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.list{
+  padding-right: 50px;
+}
+
+.active {
+  color: #1e385d;
+  text-decoration: underline 1px;
+}
+
+.container{
+  background-color: #1e385d;
+  border-top: 10px #fff;
+  padding: 250px;
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+}
+
+hr{
+  border: none;
+  height: 5px;
+  width: 450px;
+  background-color: #cf2f17;
+  border-radius: 20px;
+}
+
+.side_desc{
+  width: 500px;
+}
+
+
+.btn{
+  padding: 10px;
+  background-color: transparent;
+  color: #cf2f17;
+  border-color: #cf2f17;
+  border-radius: .5px;
+  outline: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.btn:hover{
+  background-color: black;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+
+h1{
+  font-size:4rem!important;
+}
+
+.icon{
+  color: black;
+  width: 50px;
+  height: 50px;
+}
+
+.container2{
+  display: flex;
+  margin: 20px;
+  padding-left: 50px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.small_box{
+  margin: 30px;
+  padding-left: 50px;
+  width: 300px;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 1.975rem;
+  margin-top: 4.35rem;
+  text-align: center;
+}
+
+.icon_title{
+  text-align: center;
+  font-weight: 900;
+}
+
+.border_rule{
+  border: none;
+  height: 5px;
+  background-color: #cf2f17;
+}
+
+.side_text{
+  color: #fff;
+}
+
+.side_image{
+  width: 53%;
+  height: 49.5em;
+  position: absolute;
+  top: 210px;
+  left: 850px;
+  overflow: hidden;
+  transform: translate(-50px,-20px) skewX(-10deg);
+}
